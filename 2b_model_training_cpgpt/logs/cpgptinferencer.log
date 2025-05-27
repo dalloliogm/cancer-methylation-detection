@@ -1,0 +1,7 @@
+2025-05-27 13:44:07 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-05-27 13:44:07 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 13:44:07 | INFO | CpGPTInferencer: Using dependencies directory: CpGPT/dependencies
+2025-05-27 13:44:07 | INFO | CpGPTInferencer: Using data directory: CpGPT/data
+2025-05-27 13:44:08 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, etc.
+2025-05-27 13:44:09 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-05-27 13:44:16 | INFO | CpGPTInferencer: Downloading human dependencies to CpGPT/dependencies/human.
