@@ -5,3 +5,237 @@
 2025-05-27 13:44:08 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, etc.
 2025-05-27 13:44:09 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
 2025-05-27 13:44:16 | INFO | CpGPTInferencer: Downloading human dependencies to CpGPT/dependencies/human.
+2025-05-27 13:54:10 | INFO | CpGPTInferencer: Successfully downloaded human dependencies.
+2025-05-27 13:57:25 | INFO | CpGPTInferencer: Downloading model checkpoint to CpGPT/dependencies/model/weights/cancer.ckpt.
+2025-05-27 13:57:32 | INFO | CpGPTInferencer: Downloading model config to CpGPT/dependencies/model/config/cancer.yaml
+2025-05-27 13:57:32 | INFO | CpGPTInferencer: Downloading model vocabulary to CpGPT/dependencies/model/vocab/cancer.json
+2025-05-27 13:57:32 | INFO | CpGPTInferencer: Successfully downloaded model 'cancer'.
+2025-05-27 13:57:33 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-05-27 13:57:33 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-05-27 13:57:33 | INFO | CpGPTInferencer: Using device: cpu.
+2025-05-27 13:57:33 | INFO | CpGPTInferencer: Loading checkpoint from: CpGPT/dependencies/model/weights/cancer.ckpt
+2025-05-27 13:57:34 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-05-27 13:57:37 | INFO | CpGPTInferencer: Downloading dataset GSE182215 to CpGPT/data/cpgcorpus/raw/GSE182215.
+2025-05-27 13:58:02 | INFO | CpGPTInferencer: Successfully downloaded dataset GSE182215.
+2025-05-27 13:58:15 | ERROR | CpGPTInferencer: GSE ID 'GSE289137' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE100780...
+2025-05-27 13:58:15 | ERROR | CpGPTInferencer: Failed to check GSE ID: GSE ID 'GSE289137' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE100780...
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel_launcher.py", line 18, in <module>
+    app.launch_new_instance()
+    │   └ <bound method Application.launch_instance of <class 'ipykernel.kernelapp.IPKernelApp'>>
+    └ <module 'ipykernel.kernelapp' from 'c:\\Users\\dallo\\workspace\\cancer-methylation-detection\\.conda\\Lib\\site-packages\\ip...
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\traitlets\config\application.py", line 1075, in launch_instance
+    app.start()
+    │   └ <function IPKernelApp.start at 0x0000023CD1B1D760>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x0000023CCD3BB310>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelapp.py", line 739, in start
+    self.io_loop.start()
+    │    │       └ <function BaseAsyncIOLoop.start at 0x0000023CD1B1E980>
+    │    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x0000023CD1B3DCD0>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x0000023CCD3BB310>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    │    │            └ <function BaseEventLoop.run_forever at 0x0000023CCFE48680>
+    │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x0000023CD1B3DCD0>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000023CCFE4A480>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000023CCF9C68E0>
+    └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 545, in dispatch_queue
+    await self.process_one()
+          │    └ <function Kernel.process_one at 0x0000023CD1ADEA20>
+          └ <ipykernel.ipkernel.IPythonKernel object at 0x0000023CD1B4C550>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 534, in process_one
+    await dispatch(*args)
+          │         └ ([<zmq.Frame(b'a9f4809b-87f'...36B)>, <zmq.Frame(b'<IDS|MSG>')>, <zmq.Frame(b'9e832a98d4dd'...64B)>, <zmq.Frame(b'{"date":"20...
+          └ <bound method Kernel.dispatch_shell of <ipykernel.ipkernel.IPythonKernel object at 0x0000023CD1B4C550>>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 437, in dispatch_shell
+    await result
+          └ <coroutine object IPythonKernel.execute_request at 0x0000023CC0B83540>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\ipkernel.py", line 362, in execute_request
+    await super().execute_request(stream, ident, parent)
+                                  │       │      └ {'header': {'date': datetime.datetime(2025, 5, 27, 12, 58, 15, 296000, tzinfo=tzutc()), 'msg_id': 'f5dbc611-6995-4618-8154-22...
+                                  │       └ [b'a9f4809b-87f8-4743-a9c3-51bf71e666b6']
+                                  └ <zmq.eventloop.zmqstream.ZMQStream object at 0x0000023CD1B3ED90>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 778, in execute_request
+    reply_content = await reply_content
+                          └ <coroutine object IPythonKernel.do_execute at 0x0000023CBFB2DDF0>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\ipkernel.py", line 449, in do_execute
+    res = shell.run_cell(
+          │     └ <function ZMQInteractiveShell.run_cell at 0x0000023CD1B12840>
+          └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\zmqshell.py", line 549, in run_cell
+    return super().run_cell(*args, **kwargs)
+                             │       └ {'store_history': True, 'silent': False, 'cell_id': 'vscode-notebook-cell:/c%3A/Users/dallo/workspace/cancer-methylation-dete...
+                             └ ('# DIsease dataset\ninferencer.download_cpgcorpus_dataset("GSE289137")',)
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3098, in run_cell
+    result = self._run_cell(
+             │    └ <function InteractiveShell._run_cell at 0x0000023CD10FEC00>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3153, in _run_cell
+    result = runner(coro)
+             │      └ <coroutine object InteractiveShell.run_cell_async at 0x0000023CD2E068E0>
+             └ <function _pseudo_sync_runner at 0x0000023CD10E9C60>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+    │    └ <method 'send' of 'coroutine' objects>
+    └ <coroutine object InteractiveShell.run_cell_async at 0x0000023CD2E068E0>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3365, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+                       │    │             │        │     └ 'C:\\Users\\dallo\\AppData\\Local\\Temp\\ipykernel_33048\\2623167454.py'
+                       │    │             │        └ [<ast.Expr object at 0x0000023CC0C87FD0>]
+                       │    │             └ <ast.Module object at 0x0000023CC0C85AB0>
+                       │    └ <function InteractiveShell.run_ast_nodes at 0x0000023CD10FEFC0>
+                       └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3610, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+             │    │        │     │              └ False
+             │    │        │     └ <ExecutionResult object at 23cc0dfee90, execution_count=19 error_before_exec=None error_in_exec=None info=<ExecutionInfo obje...
+             │    │        └ <code object <module> at 0x0000023CC0BF62E0, file "C:\Users\dallo\AppData\Local\Temp\ipykernel_33048\2623167454.py", line 1>
+             │    └ <function InteractiveShell.run_code at 0x0000023CD10FF060>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3670, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+         │         │    │               │    └ <property object at 0x0000023CD10DF6A0>
+         │         │    │               └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+         │         │    └ <property object at 0x0000023CD10DF740>
+         │         └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+         └ <code object <module> at 0x0000023CC0BF62E0, file "C:\Users\dallo\AppData\Local\Temp\ipykernel_33048\2623167454.py", line 1>
+
+  File "C:\Users\dallo\AppData\Local\Temp\ipykernel_33048\2623167454.py", line 2, in <module>
+    inferencer.download_cpgcorpus_dataset("GSE289137")
+    │          └ <function CpGPTInferencer.download_cpgcorpus_dataset at 0x0000023CBFEDFBA0>
+    └ <cpgpt.infer.cpgpt_inferencer.CpGPTInferencer object at 0x0000023CBFF44390>
+
+> File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\cpgpt\infer\cpgpt_inferencer.py", line 437, in download_cpgcorpus_dataset
+    raise FileNotFoundError(error_msg)
+                            └ "GSE ID 'GSE289137' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE...
+
+FileNotFoundError: GSE ID 'GSE289137' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE100780...
+2025-05-27 13:58:31 | ERROR | CpGPTInferencer: GSE ID 'gse213478' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE100780...
+2025-05-27 13:58:31 | ERROR | CpGPTInferencer: Failed to check GSE ID: GSE ID 'gse213478' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE100780...
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel_launcher.py", line 18, in <module>
+    app.launch_new_instance()
+    │   └ <bound method Application.launch_instance of <class 'ipykernel.kernelapp.IPKernelApp'>>
+    └ <module 'ipykernel.kernelapp' from 'c:\\Users\\dallo\\workspace\\cancer-methylation-detection\\.conda\\Lib\\site-packages\\ip...
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\traitlets\config\application.py", line 1075, in launch_instance
+    app.start()
+    │   └ <function IPKernelApp.start at 0x0000023CD1B1D760>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x0000023CCD3BB310>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelapp.py", line 739, in start
+    self.io_loop.start()
+    │    │       └ <function BaseAsyncIOLoop.start at 0x0000023CD1B1E980>
+    │    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x0000023CD1B3DCD0>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x0000023CCD3BB310>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    │    │            └ <function BaseEventLoop.run_forever at 0x0000023CCFE48680>
+    │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x0000023CD1B3DCD0>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000023CCFE4A480>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000023CCF9C68E0>
+    └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...8B)>, ...],))>)>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 545, in dispatch_queue
+    await self.process_one()
+          │    └ <function Kernel.process_one at 0x0000023CD1ADEA20>
+          └ <ipykernel.ipkernel.IPythonKernel object at 0x0000023CD1B4C550>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 534, in process_one
+    await dispatch(*args)
+          │         └ ([<zmq.Frame(b'a9f4809b-87f'...36B)>, <zmq.Frame(b'<IDS|MSG>')>, <zmq.Frame(b'd2f3cdbdc7dd'...64B)>, <zmq.Frame(b'{"date":"20...
+          └ <bound method Kernel.dispatch_shell of <ipykernel.ipkernel.IPythonKernel object at 0x0000023CD1B4C550>>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 437, in dispatch_shell
+    await result
+          └ <coroutine object IPythonKernel.execute_request at 0x0000023CC43A0240>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\ipkernel.py", line 362, in execute_request
+    await super().execute_request(stream, ident, parent)
+                                  │       │      └ {'header': {'date': datetime.datetime(2025, 5, 27, 12, 58, 30, 928000, tzinfo=tzutc()), 'msg_id': 'cd14635c-de1e-41dd-baca-c6...
+                                  │       └ [b'a9f4809b-87f8-4743-a9c3-51bf71e666b6']
+                                  └ <zmq.eventloop.zmqstream.ZMQStream object at 0x0000023CD1B3ED90>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\kernelbase.py", line 778, in execute_request
+    reply_content = await reply_content
+                          └ <coroutine object IPythonKernel.do_execute at 0x0000023CBFB2DDF0>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\ipkernel.py", line 449, in do_execute
+    res = shell.run_cell(
+          │     └ <function ZMQInteractiveShell.run_cell at 0x0000023CD1B12840>
+          └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\ipykernel\zmqshell.py", line 549, in run_cell
+    return super().run_cell(*args, **kwargs)
+                             │       └ {'store_history': True, 'silent': False, 'cell_id': 'vscode-notebook-cell:/c%3A/Users/dallo/workspace/cancer-methylation-dete...
+                             └ ('# DIsease dataset\ninferencer.download_cpgcorpus_dataset("gse213478")',)
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3098, in run_cell
+    result = self._run_cell(
+             │    └ <function InteractiveShell._run_cell at 0x0000023CD10FEC00>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3153, in _run_cell
+    result = runner(coro)
+             │      └ <coroutine object InteractiveShell.run_cell_async at 0x0000023CD2E068E0>
+             └ <function _pseudo_sync_runner at 0x0000023CD10E9C60>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+    │    └ <method 'send' of 'coroutine' objects>
+    └ <coroutine object InteractiveShell.run_cell_async at 0x0000023CD2E068E0>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3365, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+                       │    │             │        │     └ 'C:\\Users\\dallo\\AppData\\Local\\Temp\\ipykernel_33048\\3936736097.py'
+                       │    │             │        └ [<ast.Expr object at 0x0000023CC1EC1810>]
+                       │    │             └ <ast.Module object at 0x0000023CC0C85AB0>
+                       │    └ <function InteractiveShell.run_ast_nodes at 0x0000023CD10FEFC0>
+                       └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3610, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+             │    │        │     │              └ False
+             │    │        │     └ <ExecutionResult object at 23cc1f342d0, execution_count=20 error_before_exec=None error_in_exec=None info=<ExecutionInfo obje...
+             │    │        └ <code object <module> at 0x0000023CC437D020, file "C:\Users\dallo\AppData\Local\Temp\ipykernel_33048\3936736097.py", line 1>
+             │    └ <function InteractiveShell.run_code at 0x0000023CD10FF060>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+  File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\IPython\core\interactiveshell.py", line 3670, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+         │         │    │               │    └ <property object at 0x0000023CD10DF6A0>
+         │         │    │               └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+         │         │    └ <property object at 0x0000023CD10DF740>
+         │         └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000023CD2FFD350>
+         └ <code object <module> at 0x0000023CC437D020, file "C:\Users\dallo\AppData\Local\Temp\ipykernel_33048\3936736097.py", line 1>
+
+  File "C:\Users\dallo\AppData\Local\Temp\ipykernel_33048\3936736097.py", line 2, in <module>
+    inferencer.download_cpgcorpus_dataset("gse213478")
+    │          └ <function CpGPTInferencer.download_cpgcorpus_dataset at 0x0000023CBFEDFBA0>
+    └ <cpgpt.infer.cpgpt_inferencer.CpGPTInferencer object at 0x0000023CBFF44390>
+
+> File "c:\Users\dallo\workspace\cancer-methylation-detection\.conda\Lib\site-packages\cpgpt\infer\cpgpt_inferencer.py", line 437, in download_cpgcorpus_dataset
+    raise FileNotFoundError(error_msg)
+                            └ "GSE ID 'gse213478' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE...
+
+FileNotFoundError: GSE ID 'gse213478' is not available in CpGCorpus. Available options include: GSE100184, GSE100208, GSE100209, GSE100779, GSE100780...

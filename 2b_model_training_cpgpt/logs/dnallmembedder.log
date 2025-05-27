@@ -1,0 +1,4 @@
+2025-05-27 13:59:55 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-05-27 13:59:55 | INFO | DNALLMEmbedder: Genome files will be stored under CpGPT\dependencies\human\genomes.
+2025-05-27 13:59:55 | INFO | DNALLMEmbedder: DNA embeddings will be stored under CpGPT\dependencies\human\dna_embeddings and subdirectories.
+2025-05-27 14:00:15 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
