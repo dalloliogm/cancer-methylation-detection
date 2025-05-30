@@ -3,3 +3,9 @@
 2025-05-27 14:00:17 | INFO | IlluminaMethylationProber: Illumina metadata dictionary loaded successfully.
 2025-05-27 14:06:53 | INFO | CpGPTInferencer: Downloading dataset GSE182215 to CpGPT/data/cpgcorpus/raw/GSE182215.
 2025-05-27 14:07:18 | INFO | CpGPTInferencer: Successfully downloaded dataset GSE182215.
+2025-05-27 16:22:43 | INFO | IlluminaMethylationProber: Initializing class IlluminaMethylationProber.
+2025-05-27 16:22:43 | INFO | IlluminaMethylationProber: Illumina methylation manifest files will be stored under CpGPT\dependencies\human\manifests.
+2025-05-27 16:22:45 | INFO | IlluminaMethylationProber: Illumina metadata dictionary loaded successfully.
+2025-05-28 14:58:30 | INFO | IlluminaMethylationProber: Initializing class IlluminaMethylationProber.
+2025-05-28 14:58:30 | INFO | IlluminaMethylationProber: Illumina methylation manifest files will be stored under CpGPT\dependencies\human\manifests.
+2025-05-28 14:58:32 | INFO | IlluminaMethylationProber: Illumina metadata dictionary loaded successfully.
