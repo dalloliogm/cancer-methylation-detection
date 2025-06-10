@@ -323,3 +323,35 @@ FileNotFoundError: GSE ID 'gse213478' is not available in CpGCorpus. Available o
 2025-06-10 11:59:40 | INFO | CpGPTInferencer: Using device: cpu.
 2025-06-10 11:59:40 | INFO | CpGPTInferencer: Loading checkpoint from: CpGPT/dependencies/model/weights/cancer.ckpt
 2025-06-10 11:59:40 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-10 17:58:06 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-10 17:58:06 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-10 17:58:06 | INFO | CpGPTInferencer: Using dependencies directory: CpGPT/dependencies
+2025-06-10 17:58:06 | INFO | CpGPTInferencer: Using data directory: CpGPT/data
+2025-06-10 17:58:06 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, etc.
+2025-06-10 17:58:07 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-10 17:58:09 | INFO | CpGPTInferencer: Dependencies for human already exist at CpGPT\dependencies\human (skipping download).
+2025-06-10 17:58:57 | INFO | CpGPTInferencer: Model checkpoint already exists at CpGPT/dependencies/model/weights/cancer.ckpt (skipping download).
+2025-06-10 17:58:57 | INFO | CpGPTInferencer: Model config already exists at CpGPT/dependencies/model/config/cancer.yaml (skipping download).
+2025-06-10 17:58:57 | INFO | CpGPTInferencer: Model vocabulary already exists at CpGPT/dependencies/model/vocab/cancer.json (skipping download).
+2025-06-10 17:58:57 | INFO | CpGPTInferencer: Successfully downloaded model 'cancer'.
+2025-06-10 17:58:58 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-10 17:58:58 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-10 17:58:58 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-10 17:58:58 | INFO | CpGPTInferencer: Loading checkpoint from: CpGPT/dependencies/model/weights/cancer.ckpt
+2025-06-10 17:58:58 | INFO | CpGPTInferencer: Checkpoint loaded into the model.
+2025-06-10 18:35:44 | INFO | CpGPTInferencer: Initializing class CpGPTInferencer.
+2025-06-10 18:35:44 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-10 18:35:44 | INFO | CpGPTInferencer: Using dependencies directory: CpGPT/dependencies
+2025-06-10 18:35:44 | INFO | CpGPTInferencer: Using data directory: CpGPT/data
+2025-06-10 18:35:44 | INFO | CpGPTInferencer: There are 19 CpGPT models available such as age, age_cot, average_adultweight, etc.
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: There are 2089 GSE datasets available such as GSE100184, GSE100208, GSE100209, etc.
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Dependencies for human already exist at CpGPT\dependencies\human (skipping download).
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Model checkpoint already exists at CpGPT/dependencies/model/weights/cancer.ckpt (skipping download).
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Model config already exists at CpGPT/dependencies/model/config/cancer.yaml (skipping download).
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Model vocabulary already exists at CpGPT/dependencies/model/vocab/cancer.json (skipping download).
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Successfully downloaded model 'cancer'.
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Loaded CpGPT model config.
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Instantiated CpGPT model from config.
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Using device: cpu.
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Loading checkpoint from: CpGPT/dependencies/model/weights/cancer.ckpt
+2025-06-10 18:35:45 | INFO | CpGPTInferencer: Checkpoint loaded into the model.

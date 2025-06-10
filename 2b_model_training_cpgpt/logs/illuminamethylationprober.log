@@ -12,3 +12,6 @@
 2025-06-09 16:49:04 | INFO | IlluminaMethylationProber: Initializing class IlluminaMethylationProber.
 2025-06-09 16:49:04 | INFO | IlluminaMethylationProber: Illumina methylation manifest files will be stored under CpGPT\dependencies\human\manifests.
 2025-06-09 16:49:05 | INFO | IlluminaMethylationProber: Illumina metadata dictionary loaded successfully.
+2025-06-10 20:40:01 | INFO | IlluminaMethylationProber: Initializing class IlluminaMethylationProber.
+2025-06-10 20:40:01 | INFO | IlluminaMethylationProber: Illumina methylation manifest files will be stored under CpGPT\dependencies\human\manifests.
+2025-06-10 20:40:03 | INFO | IlluminaMethylationProber: Illumina metadata dictionary loaded successfully.

@@ -38,3 +38,15 @@
 2025-06-09 16:49:27 | INFO | DNALLMEmbedder: Genome files will be stored under CpGPT\dependencies\human\genomes.
 2025-06-09 16:49:27 | INFO | DNALLMEmbedder: DNA embeddings will be stored under CpGPT\dependencies\human\dna_embeddings and subdirectories.
 2025-06-09 16:49:49 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-06-10 20:39:33 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-06-10 20:39:33 | INFO | DNALLMEmbedder: Genome files will be stored under CpGPT\dependencies\human\genomes.
+2025-06-10 20:39:33 | INFO | DNALLMEmbedder: DNA embeddings will be stored under CpGPT\dependencies\human\dna_embeddings and subdirectories.
+2025-06-10 20:40:01 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-06-10 20:40:04 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-06-10 20:40:04 | INFO | DNALLMEmbedder: Genome files will be stored under CpGPT\dependencies\human\genomes.
+2025-06-10 20:40:04 | INFO | DNALLMEmbedder: DNA embeddings will be stored under CpGPT\dependencies\human\dna_embeddings and subdirectories.
+2025-06-10 20:40:33 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
+2025-06-10 20:40:33 | INFO | DNALLMEmbedder: Initializing class DNALLMEmbedder.
+2025-06-10 20:40:33 | INFO | DNALLMEmbedder: Genome files will be stored under CpGPT\dependencies\human\genomes.
+2025-06-10 20:40:33 | INFO | DNALLMEmbedder: DNA embeddings will be stored under CpGPT\dependencies\human\dna_embeddings and subdirectories.
+2025-06-10 20:41:02 | INFO | DNALLMEmbedder: Ensembl metadata dictionary loaded successfully
