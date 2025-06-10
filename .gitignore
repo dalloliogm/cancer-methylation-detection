@@ -1,2 +1,9 @@
 2b_model_training_cpgpt/CpGPT/
 2b_model_training_cpgpt/AutoGluonModels/
+data/*/*bedgraph.gz
+data/*gz
+data/GSE185307_RAW.tar
+*log
+2b_model_training_cpgpt/logs/*
+2b_model_training_cpgpt/logs/*.log
+=
